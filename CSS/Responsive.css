@@ -1,0 +1,231 @@
+/*Responsive Css Media Queries Codes*/
+
+/*Medium Layout: 1280px*/
+@media only screen and (min-width: 992px) and (max-width: 1200px)
+{
+  /*Home Page responsive code*/
+  .Area
+  {
+    width: 970px;
+  }
+  .Logo 
+  {
+    width: 240px;
+  }
+  .single-Service 
+  {
+    width: 310px;
+  }
+  .About-Left 
+  {
+    width: 670px;
+    /* text-align: center; */
+  }
+
+  /*Services page responsive code*/
+  .Services-Page .single-Service
+  {
+    width: 310px;
+  }
+
+  .Services-Page .single-Service:nth-child(3),.Services-Page .single-Service:nth-child(6)
+  {
+    margin-right: 0;
+  }
+
+  .Services-Page .single-Service:nth-child(4),
+  .Services-Page .single-Service:nth-child(8)
+  {
+    margin-right: 20px;
+  }
+
+  /*Gallery Page responsive code*/
+  .Single-Gallery 
+  {
+    width: 230px;
+    margin-right: 16px;
+  }
+
+  /*Contact page responsive code*/
+  .Contact-Form 
+  {
+    width: 620px;
+  }
+}
+
+/*Tablet Layout: 768px*/
+@media only screen and (min-width: 768px) and (max-width: 991px)
+{
+  /*Home page responsive code*/
+  .Area 
+  {
+    width: 750px;
+  }
+  .Logo 
+  {
+    width: 210px;
+  }
+  .Menu 
+  {
+    width: 500px;
+  }
+  .Menu ul 
+  {
+    margin-top: 10px;
+  }
+  .single-Service 
+  {
+    width: 236px;
+  }
+  .single-Service h4 
+  {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .single-Service p 
+  {
+    font-size: 14px;
+  }
+  .About-Left 
+  {
+    width: 474px;
+  }
+  .About-Menu 
+  {
+    width: 240px;
+  }
+
+  /*Services page responsive code*/
+  .Services-Page .single-Service 
+  {
+    width: 236px;
+  }
+
+  .Services-Page .single-Service:nth-child(3), .Services-Page .single-Service:nth-child(6)
+  {
+    margin-right: 0;
+  }
+
+  .Services-Page .single-Service:nth-child(4), .Services-Page .single-Service:nth-child(8)
+  {
+    margin-right: 20px;
+  }
+
+  /*Gallery page responsive code*/
+  .Single-Gallery 
+  {
+    width: 236px;
+  }
+
+  .Gallery-Box .Single-Gallery:nth-child(3), 
+  .Gallery-Box .Single-Gallery:nth-child(6)
+  {
+    margin-right: 0;
+  }
+
+  .Gallery-Box .Single-Gallery:nth-child(4), 
+  .Gallery-Box .Single-Gallery:nth-child(8)
+  {
+    margin-right: 20px;
+  }
+
+  /*Contact page responsive code*/
+  .Contact-Form 
+  {
+    width: 480px;
+    margin-right: 10px;
+  }
+  .Contact-Adress 
+  {
+    width: 255px;
+  }
+  .Contact-Adress ul li 
+  {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+/*Mobile Layout: 320px*/
+@media only screen and (max-width: 767px)
+{
+  /*Home page responsive code*/
+  .Area
+  {
+    width: 300px;
+  }
+  .Menu, .About-Left, .About-Menu,
+  .Services-Page .single-Service,
+  .Single-Gallery, .Contact-Form,
+  .Contact-Adress 
+  {
+    width: 100%;
+  }
+  .Menu ul 
+  {
+    text-align: center;
+  }
+  .Title h4 
+  {
+    font-size: 28px;
+  }
+  .single-Service 
+  {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .About 
+  {
+    padding: 20px 0;
+  }
+  .About-Left, .Contact-Form 
+  {
+    margin-bottom: 25px;
+  }
+
+  /*About page responsive code*/
+  .Page-Banner 
+  {
+    padding: 60px 0;
+  }
+  .Page-Banner h4 
+  {
+    font-size: 35px;
+  }
+
+  /*Contact page responsive code*/
+  .Contact-Adress ul li 
+  {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  .Map iframe 
+  {
+    height: 206px;
+  }
+}
+
+/*Wide Mobile Layout: 480px*/
+@media only screen and (min-width: 480px) and (max-width: 767px)
+{
+  .Area
+  {
+    width: 450px;
+  }
+  .single-Service 
+  {
+    background: lightslategray;
+  }
+  .Single-Gallery 
+  {
+    width: 47%;
+  }
+
+  .Gallery-Box .Single-Gallery:nth-child(2),
+  .Gallery-Box .Single-Gallery:nth-child(4),
+  .Gallery-Box .Single-Gallery:nth-child(6),
+  .Gallery-Box .Single-Gallery:nth-child(8) 
+  {
+    margin-right: 0;
+  }
+}

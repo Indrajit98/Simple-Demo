@@ -1,0 +1,345 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+body
+{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+}
+h1, h2, h3, h4, h5, h6
+{
+  font-weight: 600;
+}
+
+/*Fixed Main Area CSS Code*/
+.Area
+{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/*Home page CSS Code*/
+.Header
+{
+  overflow: hidden;
+  background: #DDDDDD;
+  padding: 20px 0;
+}
+.Logo
+{
+  float: left;
+  width: 270px;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+.Logo img
+{
+  width: 100%
+}
+.Menu
+{
+  float: right;
+  width: 700px;
+}
+.Menu ul
+{
+  list-style: none;
+  text-align: right;
+  margin-top: 23px;
+}
+.Menu ul li
+{
+  display: inline-block;
+}
+.Menu ul li a
+{
+  text-decoration: none;
+  font-size: 18px;
+  color: #333;
+  padding: 10px;
+  display: block;
+  text-transform: capitalize;
+  transition: .5s;
+}
+.Menu ul li a:hover
+{
+  background: #FF6347;
+  color: #ffff;
+}
+.Banner
+{
+
+}
+.Banner img
+{
+  width: 100%;
+}
+
+/*Services Section and Services Page CSS Code*/
+.Services
+{
+
+}
+.Title
+{
+
+}
+.Title h4
+{
+  text-transform: capitalize;
+  font-size: 35px;
+  text-align: center;
+  padding: 20px 0;
+}
+.Services-Box
+{
+ overflow: hidden;
+}
+.single-Service
+{
+  background: #008080;
+  float: left;
+  padding: 20px;
+  width: 320px;
+  margin-right: 20px;
+}
+.single-Service:last-child
+{
+  margin-right: 0;
+}
+.single-Service h4
+{
+  text-align: center;
+  font-size: 25px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.single-Service img
+{
+  width: 100%;
+}
+.single-Service p
+{
+  font-size: 16px;
+  color: #ffffff;
+  margin: 10px 0;
+  line-height: 25px;
+}
+.single-Service a,.About-Left a
+{
+  display: inline-block;
+  text-decoration: none;
+  background: #FF6347;
+  padding: 5px 20px;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 17px;
+  font-style: italic;
+}
+.Services-Page .single-Service
+{
+  width: 235px;
+  margin-bottom: 20px;
+}
+.Services-Page .single-Service:nth-child(4),
+.Services-Page .single-Service:nth-child(8)
+{
+  margin-right: 0;
+}
+
+/*About Section and About Page CSS Code*/
+.About
+{
+ overflow: hidden;
+ padding: 30px 0;
+}
+.About-Left
+{
+  float: left;
+  width: 700px;
+  margin-right: 20px;
+}
+.About-Left h4,.About-Menu h4
+{
+  text-transform: capitalize;
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+.About-Left p
+{
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.About-Menu
+{
+  float: right;
+  width: 270px;
+}
+.About-Menu ul
+{
+  list-style: none;
+}
+.About-Menu ul li
+{
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  background-image: url("../Assets/arrow.png");
+  background-repeat: no-repeat;
+  padding-left: 28px;
+  line-height: 25px;
+}
+.About-Menu ul li:last-child
+{
+  border-bottom: 0;
+}
+.About-Menu ul li a
+{
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+/*Page Banner CSS Code*/
+.Page-Banner
+{
+  background-image: url("../Assets/page-bannar.jpg");
+  padding: 100px 0;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+.Page-Banner h4
+{
+  color: #ffff;
+  text-transform: capitalize;
+  font-size: 50px;
+}
+
+/*Footer Section CSS Code*/
+.Footer
+{
+  background: #008080;
+  text-align: center;
+  padding: 20px 0;
+}
+.Footer p
+{
+  font-size: 18px;
+  color: #ffff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/*Gallery Page CSS Code*/
+.Gallery
+{
+
+}
+.Gallery-Box
+{
+  overflow: hidden;
+}
+.Single-Gallery
+{
+  float: left;
+  width: 235px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.Single-Gallery iframe
+{
+  width: 100%;
+}
+.Gallery-Box .Single-Gallery:nth-child(4),
+.Gallery-Box .Single-Gallery:nth-child(8) 
+{
+  margin-right: 0;
+}
+
+/*Contact Page CSS Code*/
+.Contact
+{
+ overflow: hidden;
+ padding: 30px 0;
+}
+.Contact-Form
+{
+  float: left;
+  width: 650px;
+  margin-right: 30px;
+}
+.Contact-Form h4, .Contact-Adress h4
+{
+  text-transform: capitalize;
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+.Contact-Form input, .Contact-Form textarea
+{
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+}
+.Contact-Form input[type="submit"] 
+{
+  width: auto;
+  padding: 10px 30px;
+  background: tomato;
+  color: #ffff;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 0;
+}
+.Contact-Adress
+{
+  float: right;
+  width: 320px;
+}
+.Contact-Adress ul
+{
+  list-style: none;
+}
+.Contact-Adress ul li
+{
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #ddd;
+  font-size: 20px;
+}
+.Contact-Adress ul li:last-child
+{
+  border-bottom: 0;
+}
+.Contact-Adress ul li a
+{
+  text-decoration: none;
+  color: #333;
+  transition: .5s;
+}
+.Contact-Adress ul li:hover,
+.Contact-Adress ul li a:hover
+{
+  color: #008080;
+}
+.Map
+{
+  margin-bottom: 20px;
+}
+.Map iframe
+{
+  width: 100%;
+  height: 300px;
+  border: 3px solid #eee;
+}
